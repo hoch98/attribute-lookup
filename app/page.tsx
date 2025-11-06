@@ -14,6 +14,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import React from "react";
+import { Select } from "@/components/retroui/Select";
 
 function formatNumberCompact(number:number) {
   if (typeof number !== 'number') {
@@ -54,7 +55,7 @@ export default function Home() {
   const [open, setOpen] = React.useState(false);
   const [data, setData] = React.useState<any[]>([]);
   const [shardPrices, setShardPrices] = React.useState<any>({});
-  const [sortType, setSortType] = React.useState("rarity");
+  const [sortType, setSortType] = React.useState("usefulness");
   const [sortAsc, setSortAsc] = React.useState(false);
 
   React.useEffect(() => {
@@ -81,13 +82,15 @@ export default function Home() {
   }, [])
 
   function sortData() {
-    var sortedData = attributeData.sort((sortFuncs[sortType] as any));
+    var sortedData = [...attributeData].sort((sortFuncs[sortType] as any));
+    console.log(sortedData)
+    if (sortAsc) sortedData.reverse()
     setData(sortedData);
   }
 
   React.useEffect(() => {
     sortData()
-  }, []);
+  }, [sortType, sortAsc]);
 
   function handleOpen(attribute: any) {
     setSelected(attribute);
@@ -96,9 +99,42 @@ export default function Home() {
 
   return (
     <div className="body">
-      <Text as={"h2"}>
+      <Text as={"h2"} className="mb-6">
         Attribute Lookup
       </Text>
+      <Text className="mb-1">
+        Sort By
+      </Text>
+      <Select onValueChange={(value) => {
+        setSortType(value);
+      }}>
+        <Select.Trigger className="w-60">
+          <Select.Value placeholder="Usefulness" />
+        </Select.Trigger>
+        <Select.Content>
+          <Select.Group>
+            <Select.Item value="usefulness">Usefulness</Select.Item>
+            <Select.Item value="rarity">Rarity</Select.Item>
+          </Select.Group>
+        </Select.Content>
+      </Select>
+
+      <Text className="mb-1 mt-6">
+        Sort Order
+      </Text>
+      <Select onValueChange={(value) => {
+        setSortAsc(value == "true" ? true : false);
+      }}>
+        <Select.Trigger className="w-60">
+          <Select.Value placeholder="Descending" />
+        </Select.Trigger>
+        <Select.Content>
+          <Select.Group>
+            <Select.Item value="true">Ascending</Select.Item>
+            <Select.Item value="false">Descending</Select.Item>
+          </Select.Group>
+        </Select.Content>
+      </Select>
       <Table className="mb-6 mt-12 mx-auto">
         <Table.Header>
             <Table.Row>
@@ -106,7 +142,7 @@ export default function Home() {
               <Table.Head className="text-center">Rarity</Table.Head>
               <Table.Head className="text-center">Usefulness</Table.Head>
               <Table.Head className="text-center">Shard</Table.Head>
-              <Table.Head className="text-center">LVL 1</Table.Head>
+              <Table.Head className="text-center">LVL 10</Table.Head>
               <Table.Head className="text-center">Price To Max</Table.Head>
             </Table.Row>
           </Table.Header>
@@ -117,7 +153,7 @@ export default function Home() {
                 <Table.Cell className="text-center">{attribute.Rarity}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Usefulness}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Shard}</Table.Cell>
-                <Table.Cell className="text-center">{attribute["Level 1"]}</Table.Cell>
+                <Table.Cell className="text-center">{attribute["Level 10"]}</Table.Cell>
                 <Table.Cell className="text-center">{formatNumberCompact(((shardPrices[attribute.Shard.toUpperCase().replaceAll(" ", "")]) as number) * shardRequired[attribute.Rarity])}</Table.Cell>
               </Table.Row>
             ))}
