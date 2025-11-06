@@ -68,10 +68,10 @@ export default function Home() {
         );
         var shard_data:{[key:string]:number} = {};
         Object.keys(shards).forEach((itemName) => {
-          if (shards[itemName]["quick_summary"] == undefined) {
+          if (shards[itemName]["buy_summary"][0] == undefined) {
             shard_data[itemName.replaceAll("SHARD_", "").replaceAll("_", "")] = 9999999999
           } else {
-            shard_data[itemName.replaceAll("SHARD_", "").replaceAll("_", "")] = parseInt(shards[itemName]["quick_status"]["buyPrice"])
+            shard_data[itemName.replaceAll("SHARD_", "").replaceAll("_", "")] = parseInt(shards[itemName]["buy_summary"][0]["pricePerUnit"])
           }
         })
         console.log(shard_data)
