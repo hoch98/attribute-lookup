@@ -1,0 +1,1450 @@
+[
+    {
+        "Name": "Big Game Hunter",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Sphinx",
+        "Level 1": "+0.5 Tracking on Griffin Burrows",
+        "Level 10": "+5 Tracking on Griffin Burrows"
+    },
+    {
+        "Name": "Mythological Fortune",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Minotaur",
+        "Level 1": "+0.5 Magic Find on Mythological mobs",
+        "Level 10": "+5 Magic Find on Mythological mobs"
+    },
+    {
+        "Name": "King of Greed",
+        "Rarity": "Epic",
+        "Usefulness": "3/5",
+        "Shard": "King Minos",
+        "Level 1": "+1% Coins from Griffin Burrows",
+        "Level 10": "+10% Coins from Griffin Burrows"
+    },
+    {
+        "Name": "Mythological Resistance",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Cretan Bull",
+        "Level 1": "+4 Defense against Mythological Mobs",
+        "Level 10": "+40 Defense against Mythological Mobs"
+    },
+    {
+        "Name": "Animal Expertise",
+        "Rarity": "Rare",
+        "Usefulness": "5/5",
+        "Shard": "Bambloom",
+        "Level 1": "+10 Foraging Fortune",
+        "Level 10": "+100 Foraging Fortune"
+    },
+    {
+        "Name": "Catacombs Box",
+        "Rarity": "Rare",
+        "Usefulness": "5/5",
+        "Shard": "Hideongeon",
+        "Level 1": "+1 Quality of boss rewards in The Catacombs",
+        "Level 10": "+10 Quality of boss rewards in The Catacombs"
+    },
+    {
+        "Name": "Deadeye",
+        "Rarity": "Rare",
+        "Usefulness": "5/5",
+        "Shard": "Skeletor",
+        "Level 1": "+2.5% Ranged weapons damage",
+        "Level 10": "+25% Ranged weapons damage"
+    },
+    {
+        "Name": "Pure Reptile",
+        "Rarity": "Rare",
+        "Usefulness": "5/5",
+        "Shard": "Crocodile",
+        "Level 1": "+2% Chance to double shards from Reptile Fusion",
+        "Level 10": "+20% Chance to double shards from Reptile Fusion"
+    },
+    {
+        "Name": "Shell",
+        "Rarity": "Epic",
+        "Usefulness": "5/5",
+        "Shard": "Shellwise",
+        "Level 1": "+10% Chance to negate knockback",
+        "Level 10": "+100% Chance to negate knockback"
+    },
+    {
+        "Name": "Warrior",
+        "Rarity": "Epic",
+        "Usefulness": "5/5",
+        "Shard": "Barbarian Duke X",
+        "Level 1": "+2.5% Melee Damage",
+        "Level 10": "+25% Melee Damage"
+    },
+    {
+        "Name": "Mana Regeneration",
+        "Rarity": "Epic",
+        "Usefulness": "5/5",
+        "Shard": "XYZ",
+        "Level 1": "+1% Mana Regeneration",
+        "Level 10": "+10% Mana Regeneration"
+    },
+    {
+        "Name": "Reptiloid",
+        "Rarity": "Legendary",
+        "Usefulness": "5/5",
+        "Shard": "Chameleon",
+        "Level 1": "Fusions with Chameleons grant the next 3 IDs as results",
+        "Level 10": "???"
+    },
+    {
+        "Name": "Vitality",
+        "Rarity": "Legendary",
+        "Usefulness": "5/5",
+        "Shard": "Kraken",
+        "Level 1": "+2 Vitality",
+        "Level 10": "+20 Vitality"
+    },
+    {
+        "Name": "Pity",
+        "Rarity": "Legendary",
+        "Usefulness": "5/5",
+        "Shard": "Daemon",
+        "Level 1": "Your RNG Meter fills +1% faster",
+        "Level 10": "Your RNG Meter fills +10% faster"
+    },
+    {
+        "Name": "Elite",
+        "Rarity": "Legendary",
+        "Usefulness": "5/5",
+        "Shard": "Power Dragon",
+        "Level 1": "+3% Damage against bosses and mini-bosses",
+        "Level 10": "+30% Damage against bosses and mini-bosses"
+    },
+    {
+        "Name": "Veteran",
+        "Rarity": "Legendary",
+        "Usefulness": "5/5",
+        "Shard": "Apex Dragon",
+        "Level 1": "+1 Combat Wisdom",
+        "Level 10": "+10 Combat Wisdom"
+    },
+    {
+        "Name": "Fog Elemental",
+        "Rarity": "Common",
+        "Usefulness": "4/5",
+        "Shard": "Mist",
+        "Level 1": "+1 Intelligence",
+        "Level 10": "+10 Intelligence"
+    },
+    {
+        "Name": "Light Elemental",
+        "Rarity": "Common",
+        "Usefulness": "4/5",
+        "Shard": "Flash",
+        "Level 1": "+1 Strength",
+        "Level 10": "+10 Strength"
+    },
+    {
+        "Name": "Moonglade Mastery",
+        "Rarity": "Common",
+        "Usefulness": "4/5",
+        "Shard": "Phanflare",
+        "Level 1": "+10 Foraging Fortune to Fig and Mangrove trees",
+        "Level 10": "+100 Foraging Fortune to Fig and Mangrove trees"
+    },
+    {
+        "Name": "Water Elemental",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Tide",
+        "Level 1": "+1 Intelligence",
+        "Level 10": "+10 Intelligence"
+    },
+    {
+        "Name": "Stone Elemental",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Quake",
+        "Level 1": "+1 Strength",
+        "Level 10": "+10 Strength"
+    },
+    {
+        "Name": "Gold Bait",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Goldfin",
+        "Level 1": "The cooldown of Golden Fish is reduced by +30s",
+        "Level 10": "The cooldown of Golden Fish is reduced by +5m"
+    },
+    {
+        "Name": "Bigger Box",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Hideoncave",
+        "Level 1": "+5% to find an extra item in Treasure Chest and Crystal Nucleus",
+        "Level 10": "+50% to find an extra item in Treasure Chest and Crystal Nucleus"
+    },
+    {
+        "Name": "Pest Luck",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Pest",
+        "Level 1": "+2% Chance to obtain rare loot from Pests",
+        "Level 10": "+20% Chance to obtain rare loot from Pests"
+    },
+    {
+        "Name": "Mangrove Sharpening",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Heron",
+        "Level 1": "+10 Sweep towards Mangrove Trees",
+        "Level 10": "+100 Sweep towards Mangrove Trees"
+    },
+    {
+        "Name": "Speed",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Obsidian Defender",
+        "Level 1": "+1 Speed",
+        "Level 10": "+10 Speed"
+    },
+    {
+        "Name": "Life Recovery",
+        "Rarity": "Uncommon",
+        "Usefulness": "4/5",
+        "Shard": "Sycophant",
+        "Level 1": "Heal for +0.1% of max HP every time you kill a mob",
+        "Level 10": "Heal for +1% of max HP every time you kill a mob"
+    },
+    {
+        "Name": "Torrent Elemental",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Cascade",
+        "Level 1": "+1 Intelligence",
+        "Level 10": "+10 Intelligence"
+    },
+    {
+        "Name": "Lightning Elemental",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Bolt",
+        "Level 1": "+1 Strength",
+        "Level 10": "+10 Strength"
+    },
+    {
+        "Name": "Beacon Zealot",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Beaconmite",
+        "Level 1": "Effects of beacons +10%, +0.1% chance to find Signal Enhancers in Tree Gifts",
+        "Level 10": "Effects of beacons +100%, +1% chance to find Signal Enhancers in Tree Gifts"
+    },
+    {
+        "Name": "Fancy Visit",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Invisibug",
+        "Level 1": "Rare and above Garden Visitors have +1% higher chance to arrive",
+        "Level 10": "Rare and above Garden Visitors have +10% higher chance to arrive"
+    },
+    {
+        "Name": "Moonglade Serendipity",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Piranha",
+        "Level 1": "+2% Chance to the rare drops from Tree Gifts at Moonglade Marsh",
+        "Level 10": "+20% Chance to the rare drops from Tree Gifts at Moonglade Marsh"
+    },
+    {
+        "Name": "Bone Font",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Lapis Skeleton",
+        "Level 1": "+2% Chance to get Level 6+ books in Superpairs",
+        "Level 10": "+20% Chance to get Level 6+ books in Superpairs"
+    },
+    {
+        "Name": "Crop Bug",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Cropeetle",
+        "Level 1": "+2% Chance to get Cropie, Squash or Fermento",
+        "Level 10": "+20% Chance to get Cropie, Squash or Fermento"
+    },
+    {
+        "Name": "Accessory Size",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Hideonring",
+        "Level 1": "+1 Accessory Bag Slot",
+        "Level 10": "+10 Accessory Bag Slots"
+    },
+    {
+        "Name": "Lifeline",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Kada Knight",
+        "Level 1": "+2.5% Damage and Defense while under 20% HP",
+        "Level 10": "+25% Damage and Defense while under 20% HP"
+    },
+    {
+        "Name": "Hunter's Grasp",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "King Cobra",
+        "Level 1": "Your Black Holes have +1% Hunter Fortune",
+        "Level 10": "Your Black Holes have +10% Hunter Fortune"
+    },
+    {
+        "Name": "Battle Experience",
+        "Rarity": "Rare",
+        "Usefulness": "4/5",
+        "Shard": "Falcon",
+        "Level 1": "+1% More Pet EXP from Combat",
+        "Level 10": "+10% More Pet EXP from Combat"
+    },
+    {
+        "Name": "Frost Elemental",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Cryo",
+        "Level 1": "+1 Intelligence",
+        "Level 10": "+10 Intelligence"
+    },
+    {
+        "Name": "Wind Elemental",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Aero",
+        "Level 1": "+1 Strength",
+        "Level 10": "+10 Strength"
+    },
+    {
+        "Name": "Lunar Power",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Lunar Moth",
+        "Level 1": "+5 Farming Fortune during the Night",
+        "Level 10": "+50 Farming Fortune during the Night"
+    },
+    {
+        "Name": "Trophy Hunter",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Fire Eel",
+        "Level 1": "+2 Trophy Chance",
+        "Level 10": "+20 Trophy Chance"
+    },
+    {
+        "Name": "Fishing Speed",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Water Hydra",
+        "Level 1": "+3 Fishing Speed",
+        "Level 10": "+30 Fishing Speed"
+    },
+    {
+        "Name": "Blazing",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Flare",
+        "Level 1": "+3% Damage while in the Crimson Isle",
+        "Level 10": "+30% Damage while in the Crimson Isle"
+    },
+    {
+        "Name": "Why Not More",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Toucan",
+        "Level 1": "+1% Pet Share EXP",
+        "Level 10": "+10% Pet Share EXP"
+    },
+    {
+        "Name": "Veil",
+        "Rarity": "Epic",
+        "Usefulness": "4/5",
+        "Shard": "Ghost",
+        "Level 1": "+1 True Defense",
+        "Level 10": "+10 True Defense"
+    },
+    {
+        "Name": "Snow Elemental",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Blizzard",
+        "Level 1": "+1 Intelligence",
+        "Level 10": "+10 Intelligence"
+    },
+    {
+        "Name": "Storm Elemental",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Tempest",
+        "Level 1": "+1 Strength",
+        "Level 10": "+10 Strength"
+    },
+    {
+        "Name": "Paramount Fortitude",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Endstone Protector",
+        "Level 1": "+0.2% Defense",
+        "Level 10": "+2% Defense"
+    },
+    {
+        "Name": "Maximal Torment",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Taurus",
+        "Level 1": "+0.1% Intelligence",
+        "Level 10": "+1% Intelligence"
+    },
+    {
+        "Name": "Star Bait",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Moltenfish",
+        "Level 1": "+0.1% Chance to fish a Shinyfish",
+        "Level 10": "+1% Chance to fish a Shinyfish"
+    },
+    {
+        "Name": "Help From Above",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Shinyfish",
+        "Level 1": "+1.25 Health Regen",
+        "Level 10": "+12.5 Health Regen"
+    },
+    {
+        "Name": "Wings of Destiny",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Ananke",
+        "Level 1": "+2% Chance to get Ananke Feathers",
+        "Level 10": "+20% Chance to get Ananke Feathers"
+    },
+    {
+        "Name": "Tuning Box",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Hideonbox",
+        "Level 1": "+1 Tuning Point",
+        "Level 10": "+10 Tuning Points"
+    },
+    {
+        "Name": "Attack Speed",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Burningsoul",
+        "Level 1": "+1 Bonus Attack Speed",
+        "Level 10": "+10 Bonus Attack Speed"
+    },
+    {
+        "Name": "Magic Find",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Cinderbat",
+        "Level 1": "+0.5 Magic Find",
+        "Level 10": "+5 Magic Find"
+    },
+    {
+        "Name": "Hunter's Karma",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Megalith",
+        "Level 1": "+1 Hunter Fortune",
+        "Level 10": "+10 Hunter Fortune"
+    },
+    {
+        "Name": "Unlimited Power",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Jormung",
+        "Level 1": "+0.1% Strength",
+        "Level 10": "+1% Strength"
+    },
+    {
+        "Name": "Unlimited Energy",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Etherdrake",
+        "Level 1": "+0.1% Crit Damage",
+        "Level 10": "+1% Crit Damage"
+    },
+    {
+        "Name": "Echo of Elemental",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Starborn",
+        "Level 1": "\"Elemental\" Attributes are +2% stronger",
+        "Level 10": "\"Elemental\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Catacombs Graduate",
+        "Rarity": "Legendary",
+        "Usefulness": "4/5",
+        "Shard": "Scarf",
+        "Level 1": "+2% Dungeon Class Experience",
+        "Level 10": "+20% Dungeon Class Experience"
+    },
+    {
+        "Name": "Nature Elemental",
+        "Rarity": "Common",
+        "Usefulness": "3/5",
+        "Shard": "Grove",
+        "Level 1": "+2 Health",
+        "Level 10": "+20 Health"
+    },
+    {
+        "Name": "Fisherman",
+        "Rarity": "Common",
+        "Usefulness": "3/5",
+        "Shard": "Night Squid",
+        "Level 1": "+1% Chance to not consume bait",
+        "Level 10": "+10% Chance to not consume bait"
+    },
+    {
+        "Name": "Creature Fisher",
+        "Rarity": "Common",
+        "Usefulness": "3/5",
+        "Shard": "Bogged",
+        "Level 1": "+0.5 Sea Creature Chance",
+        "Level 10": "+5 Sea Creature Chance"
+    },
+    {
+        "Name": "Yummy",
+        "Rarity": "Common",
+        "Usefulness": "3/5",
+        "Shard": "Birries",
+        "Level 1": "+10% Chance to drop double berries and Sea Lumies",
+        "Level 10": "+100% Chance to drop double berries and Sea Lumies"
+    },
+    {
+        "Name": "Wood Elemental",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Bramble",
+        "Level 1": "+2 Health",
+        "Level 10": "+20 Health"
+    },
+    {
+        "Name": "Fig Collector",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Sparrow",
+        "Level 1": "+1 Fig Fortune for each digit in the Fig Collection (up to 10M)",
+        "Level 10": "+10 Fig Fortune for each digit in the Fig Collection (up to 10M)"
+    },
+    {
+        "Name": "Echo of Boxes",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Cuboa",
+        "Level 1": "\"Box\" Attributes are +2% stronger",
+        "Level 10": "\"Box\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Mana Steal",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Rain Slime",
+        "Level 1": "Regain +0.5 Mana every time you hit a monster",
+        "Level 10": "Regain +5 Mana every time you hit a monster"
+    },
+    {
+        "Name": "Undead Ruler",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Zombie Soldier",
+        "Level 1": "+3% Damage to Undead Mobs",
+        "Level 10": "+30% Damage to Undead Mobs"
+    },
+    {
+        "Name": "Mangrove Collector",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Seagull",
+        "Level 1": "+1 Mangrove Fortune for each digit in the Mangrove Collection (up to 10M)",
+        "Level 10": "+10 Mangrove Fortune for each digit in the Mangrove Collection (up to 10M)"
+    },
+    {
+        "Name": "Combo",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Soul of the Alpha",
+        "Level 1": "+0.1% Damage per Grandma Wolf pet Combo (max 50 combo)",
+        "Level 10": "+1% Damage per Grandma Wolf pet Combo (max 50 combo)"
+    },
+    {
+        "Name": "Ender Ruler",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Bruiser",
+        "Level 1": "+3% Damage to Ender mobs",
+        "Level 10": "+30% Damage to Ender mobs"
+    },
+    {
+        "Name": "Magmatic Ruler",
+        "Rarity": "Uncommon",
+        "Usefulness": "3/5",
+        "Shard": "Stridersurfer",
+        "Level 1": "+3% Damage to Magmatic mobs",
+        "Level 10": "+30% Damage to Magmatic mobs"
+    },
+    {
+        "Name": "Forest Elemental",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Sylvan",
+        "Level 1": "+2 Health",
+        "Level 10": "+20 Health"
+    },
+    {
+        "Name": "Hunter's Pressure",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Python",
+        "Level 1": "Your Black Holes capture creatures +5% faster",
+        "Level 10": "Your Black Holes capture creatures +50% faster"
+    },
+    {
+        "Name": "Humanoid Ruler",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Drowned",
+        "Level 1": "+3% Damage to Humanoid mobs",
+        "Level 10": "+30% Damage to Humanoid mobs"
+    },
+    {
+        "Name": "Atomized Mithril",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Star Sentry",
+        "Level 1": "+1% Extra Mithril Powder",
+        "Level 10": "+10% Extra Mithril Powder"
+    },
+    {
+        "Name": "Essence of Unliving",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Revenant",
+        "Level 1": "+1% Undead Essence",
+        "Level 10": "+10% Undead Essence"
+    },
+    {
+        "Name": "Crystal Serendipity",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Silentdepth",
+        "Level 1": "+2% Chance to double any loot from Crystal Hollows Treasure Chests",
+        "Level 10": "+20% Chance to double any loot from Crystal Hollows Treasure Chests"
+    },
+    {
+        "Name": "Atomized Crystals",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Thyst",
+        "Level 1": "+1% Extra Gemstone Powder",
+        "Level 10": "+10% Extra Gemstone Powder"
+    },
+    {
+        "Name": "Quartz Speed",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Quartzfang",
+        "Level 1": "+10% Mining Speed from events",
+        "Level 10": "+100% Mining Speed from events"
+    },
+    {
+        "Name": "Breeze",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Wither Specter",
+        "Level 1": "When you haven't been damaged in the last 5s, mana costs are decreased by 1%",
+        "Level 10": "When you haven't been damaged in the last 5s, mana costs are decreased by 10%"
+    },
+    {
+        "Name": "Pretty Clothes",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Ladybug",
+        "Level 1": "+1% Copper from Garden Visitors",
+        "Level 10": "+10% Copper from Garden Visitors"
+    },
+    {
+        "Name": "Essence of the Forest",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Dreadwing",
+        "Level 1": "+1% Forest Essence",
+        "Level 10": "+10% Forest Essence"
+    },
+    {
+        "Name": "Atomized Glacite",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Stalagmight",
+        "Level 1": "+1% Extra Glacite Powder",
+        "Level 10": "+10% Extra Glacite Powder"
+    },
+    {
+        "Name": "Blazing Fortune",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Lava Flame",
+        "Level 1": "+1 Magic Find on Magmatic mobs",
+        "Level 10": "+10 Magic Find on Magmatic mobs"
+    },
+    {
+        "Name": "Crimson Serendipity",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Inferno Koi",
+        "Level 1": "+2% Chance to find a Vanquisher",
+        "Level 10": "+20% Chance to find a Vanquisher"
+    },
+    {
+        "Name": "Essence of Wither",
+        "Rarity": "Rare",
+        "Usefulness": "3/5",
+        "Shard": "Wither",
+        "Level 1": "+1% Wither Essence",
+        "Level 10": "+10% Wither Essence"
+    },
+    {
+        "Name": "Earth Elemental",
+        "Rarity": "Epic",
+        "Usefulness": "3/5",
+        "Shard": "Terra",
+        "Level 1": "+2 Health",
+        "Level 10": "+20 Health"
+    },
+    {
+        "Name": "Faker",
+        "Rarity": "Epic",
+        "Usefulness": "3/5",
+        "Shard": "Mimic",
+        "Level 1": "Dungeon Blessings are +1% stronger on you",
+        "Level 10": "Dungeon Blessings are +10% stronger on you"
+    },
+    {
+        "Name": "Echo of Ruler",
+        "Rarity": "Epic",
+        "Usefulness": "3/5",
+        "Shard": "Caiman",
+        "Level 1": "\"Ruler\" Attributes are +2% stronger",
+        "Level 10": "\"Ruler\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Echo of Hunter",
+        "Rarity": "Epic",
+        "Usefulness": "3/5",
+        "Shard": "Sea Serpent",
+        "Level 1": "\"Hunting\" Attributes are +2% stronger",
+        "Level 10": "\"Hunting\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Shadow Elemental",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Tenebris",
+        "Level 1": "+2 Health",
+        "Level 10": "+20 Health"
+    },
+    {
+        "Name": "Echo of Echoes",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Tiamat",
+        "Level 1": "\"Echo\" Attributes are +5% stronger",
+        "Level 10": "\"Echo\" Attributes are +50% stronger"
+    },
+    {
+        "Name": "Charmed",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Naga",
+        "Level 1": "+0.05% Chance to charm the Shard of monsters you kill",
+        "Level 10": "+0.5% Chance to charm the Shard of monsters you kill"
+    },
+    {
+        "Name": "Wart Eater",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Wartybug",
+        "Level 1": "+0.005% Chance to obtain a Warty when breaking Nether Warts",
+        "Level 10": "+0.05% Chance to obtain a Warty when breaking Nether Warts"
+    },
+    {
+        "Name": "Crimson Hook",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Lord Jawbus",
+        "Level 1": "+0.5 Double Hook Chance on the Crimson Isle",
+        "Level 10": "+5 Double Hook Chance on the Crimson Isle"
+    },
+    {
+        "Name": "Rare Bird",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Dodo",
+        "Level 1": "+1 Pet Luck",
+        "Level 10": "+10 Pet Luck"
+    },
+    {
+        "Name": "Ultimate DNA",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Galaxy Fish",
+        "Level 1": "+1 Mining, Farming and Foraging Fortune",
+        "Level 10": "+10 Mining, Farming and Foraging Fortune"
+    },
+    {
+        "Name": "Almighty",
+        "Rarity": "Legendary",
+        "Usefulness": "3/5",
+        "Shard": "Molthorn",
+        "Level 1": "\"Unlimited\" Attributes are +5% stronger",
+        "Level 10": "\"Unlimited\" Attributes are +50% stronger"
+    },
+    {
+        "Name": "Mossy Box",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Hideonleaf",
+        "Level 1": "+5 Block Fortune",
+        "Level 10": "+50 Block Fortune"
+    },
+    {
+        "Name": "Forest Fishing",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Verdant",
+        "Level 1": "+3 Fishing Speed on Foraging Islands",
+        "Level 10": "+30 Fishing Speed on Foraging Islands"
+    },
+    {
+        "Name": "Skeletal Ruler",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Chill",
+        "Level 1": "+3% Damage to Skeletal mobs",
+        "Level 10": "+30% Damage to Skeletal mobs"
+    },
+    {
+        "Name": "Fig Sharpening",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Crow",
+        "Level 1": "+5 Sweep towards Fig Trees",
+        "Level 10": "+50 Sweep towards Fig Trees"
+    },
+    {
+        "Name": "Ender Resistance",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Zealot",
+        "Level 1": "+4 Defense against Ender mobs",
+        "Level 10": "+40 Defense against Ender mobs"
+    },
+    {
+        "Name": "Visitor Bait",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Mudworm",
+        "Level 1": "Garden Visitors arrive 1% faster",
+        "Level 10": "Garden Visitors arrive 10% faster"
+    },
+    {
+        "Name": "Midas Touch",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Golden Ghoul",
+        "Level 1": "+1 Coin per kill",
+        "Level 10": "+10 Coins per kill"
+    },
+    {
+        "Name": "Blazing Resistance",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Bezal",
+        "Level 1": "+4 Defense against Infernal mobs",
+        "Level 10": "+40 Defense against Infernal mobs"
+    },
+    {
+        "Name": "Decent Karma",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Newt",
+        "Level 1": "+2 Hunter Fortune towards Common Attributes",
+        "Level 10": "+20 Hunter Fortune towards Common Attributes"
+    },
+    {
+        "Name": "Rotten Pickaxe",
+        "Rarity": "Common",
+        "Usefulness": "2/5",
+        "Shard": "Miner Zombie",
+        "Level 1": "+3 Mining Speed",
+        "Level 10": "+30 Mining Speed"
+    },
+    {
+        "Name": "Mountain Climber",
+        "Rarity": "Uncommon",
+        "Usefulness": "2/5",
+        "Shard": "Troglobyte",
+        "Level 1": "+1% HOTM Exp from Commissions",
+        "Level 10": "+10% HOTM Exp from Commissions"
+    },
+    {
+        "Name": "Good Karma",
+        "Rarity": "Uncommon",
+        "Usefulness": "2/5",
+        "Shard": "Salamander",
+        "Level 1": "+2 Hunter Fortune towards Uncommon Attributes",
+        "Level 10": "+20 Hunter Fortune towards Uncommon Attributes"
+    },
+    {
+        "Name": "Lost and Found",
+        "Rarity": "Uncommon",
+        "Usefulness": "2/5",
+        "Shard": "Salmon",
+        "Level 1": "+0.1% Chance to find a Wet Book from fishing",
+        "Level 10": "+1% Chance to find a Wet Book from fishing"
+    },
+    {
+        "Name": "Strong Legs",
+        "Rarity": "Uncommon",
+        "Usefulness": "2/5",
+        "Shard": "Mochibear",
+        "Level 1": "+3 Sweep on melee",
+        "Level 10": "+30 Sweep on melee"
+    },
+    {
+        "Name": "Arthropod Ruler",
+        "Rarity": "Uncommon",
+        "Usefulness": "2/5",
+        "Shard": "Flaming Spider",
+        "Level 1": "+3% Damage to Arthropod mobs",
+        "Level 10": "+30% Damage to Arthropod mobs"
+    },
+    {
+        "Name": "Infiltration",
+        "Rarity": "Uncommon",
+        "Usefulness": "2/5",
+        "Shard": "Termite",
+        "Level 1": "+3 Farming Fortune if Garden Plot has a Pest in it",
+        "Level 10": "+30 Farming Fortune if Garden Plot has a Pest in it"
+    },
+    {
+        "Name": "Great Karma",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Lizard King",
+        "Level 1": "+1 Hunter Fortune towards Rare Attributes",
+        "Level 10": "+10 Hunter Fortune towards Rare Attributes"
+    },
+    {
+        "Name": "Dwarven Serendipity",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Abyssal Lanternfish",
+        "Level 1": "+10% Chance to find Golden and Diamond Goblins",
+        "Level 10": "+100% Chance to find Golden and Diamond Goblins"
+    },
+    {
+        "Name": "Essence of Arthropods",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Arachne",
+        "Level 1": "+1% Spider Essence",
+        "Level 10": "+10% Spider Essence"
+    },
+    {
+        "Name": "Winter's Serendipity",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Snowfin",
+        "Level 1": "+2% chance to get rare items from Winter Gifts",
+        "Level 10": "+20% chance to get rare items from Winter Gifts"
+    },
+    {
+        "Name": "Extreme Pressure",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Lumisquid",
+        "Level 1": "+5 Pressure Resistance",
+        "Level 10": "+50 Pressure Resistance"
+    },
+    {
+        "Name": "Essence of Dragons",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Draconic",
+        "Level 1": "+1% Dragon Essence",
+        "Level 10": "+10% Dragon Essence"
+    },
+    {
+        "Name": "Echo of Sharpening",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Gecko",
+        "Level 1": "\"Sharpening\" Attributes are +2% stronger",
+        "Level 10": "\"Sharpening\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Chop",
+        "Rarity": "Rare",
+        "Usefulness": "2/5",
+        "Shard": "Hummingbird",
+        "Level 1": "+10% chance to sweep an extra log, on top of the ones you swept",
+        "Level 10": "+100% chance to sweep an extra log, on top of the ones you swept"
+    },
+    {
+        "Name": "Foraging Wisdom",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Pandarai",
+        "Level 1": "+0.5 Foraging Wisdom",
+        "Level 10": "+5 Foraging Wisdom"
+    },
+    {
+        "Name": "Excellent Karma",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Leviathan",
+        "Level 1": "+1 Hunter Fortune towards Epic Attributes",
+        "Level 10": "+10 Hunter Fortune towards Epic Attributes"
+    },
+    {
+        "Name": "Echo of Resistance",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Alligator",
+        "Level 1": "\"Resistance\" Attributes are +2% stronger",
+        "Level 10": "\"Resistance\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Hunter's Suppress",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Basilisk",
+        "Level 1": "Lassos deplete Stamina +2% faster",
+        "Level 10": "Lassos deplete Stamina +20% faster"
+    },
+    {
+        "Name": "Lucky Rod",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Moray Eel",
+        "Level 1": "Fish Treasure Shards are +1% easier to find",
+        "Level 10": "Fish Treasure Shards are +10% easier to find"
+    },
+    {
+        "Name": "Deep Technique",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Bal",
+        "Level 1": "+1% chance to gain 1 pristine on block you mine",
+        "Level 10": "+10% chance to gain 1 pristine on block you mine"
+    },
+    {
+        "Name": "Sea Wisdom",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Loch Emperor",
+        "Level 1": "+0.5 Fishing Wisdom",
+        "Level 10": "+5 Fishing Wisdom"
+    },
+    {
+        "Name": "Reborn",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Prince",
+        "Level 1": "Killing a Prince has +10% chance to add 1 Bonus Score to your Dungeon Run",
+        "Level 10": "Killing a Prince has +100% chance to add 1 Bonus Score to your Dungeon Run"
+    },
+    {
+        "Name": "Matriarch Cubs",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Hellwisp",
+        "Level 1": "+2% Chance to get a second Heavy Pearl",
+        "Level 10": "+20% Chance to get a second Heavy Pearl"
+    },
+    {
+        "Name": "Hunt Wisdom",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Leatherback",
+        "Level 1": "+0.5 Hunting Wisdom",
+        "Level 10": "+5 Hunting Wisdom"
+    },
+    {
+        "Name": "Cavern Wisdom",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Cavernshade",
+        "Level 1": "+0.5 Mining Wisdom",
+        "Level 10": "+5 Mining Wisdom"
+    },
+    {
+        "Name": "Garden Wisdom",
+        "Rarity": "Epic",
+        "Usefulness": "2/5",
+        "Shard": "Dragonfly",
+        "Level 1": "+0.5 Farming Wisdom",
+        "Level 10": "+5 Farming Wisdom"
+    },
+    {
+        "Name": "Echo of Wisdom",
+        "Rarity": "Legendary",
+        "Usefulness": "2/5",
+        "Shard": "Wyvern",
+        "Level 1": "\"Wisdom\" Attributes are +2% stronger",
+        "Level 10": "\"Wisdom\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Cloak Improvement",
+        "Rarity": "Legendary",
+        "Usefulness": "2/5",
+        "Shard": "Tortoise",
+        "Level 1": "+1 True Defense to the David's Cloak",
+        "Level 10": "+10 True Defense to the David's Cloak"
+    },
+    {
+        "Name": "Book Wisdom",
+        "Rarity": "Legendary",
+        "Usefulness": "2/5",
+        "Shard": "Lapis Creeper",
+        "Level 1": "+0.5 Enchanting Wisdom",
+        "Level 10": "+5 Enchanting Wisdom"
+    },
+    {
+        "Name": "Payback",
+        "Rarity": "Legendary",
+        "Usefulness": "2/5",
+        "Shard": "Spike",
+        "Level 1": "When hit, your next hit deals +2% Damage",
+        "Level 10": "When hit, your next hit deals +20% Damage"
+    },
+    {
+        "Name": "Bayou Biter",
+        "Rarity": "Legendary",
+        "Usefulness": "2/5",
+        "Shard": "Titanoboa",
+        "Level 1": "+0.5 Double Hook Chance on the Backwater Bayou",
+        "Level 10": "+5 Double Hook Chance on the Backwater Bayou"
+    },
+    {
+        "Name": "Dominance",
+        "Rarity": "Legendary",
+        "Usefulness": "2/5",
+        "Shard": "Thorn",
+        "Level 1": "+1.5% Damage when at full health",
+        "Level 10": "+15% Damage when at full health"
+    },
+    {
+        "Name": "Cheapskate",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Cod",
+        "Level 1": "+1% Coins from fishing treasures",
+        "Level 10": "+10% Coins from fishing treasures"
+    },
+    {
+        "Name": "Arthropod Resistance",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Voracious Spider",
+        "Level 1": "+4 Defense against Arthropod mobs",
+        "Level 10": "+40 Defense against Arthropod mobs"
+    },
+    {
+        "Name": "Happy Box",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Hideongift",
+        "Level 1": "+2% Chance to gain an extra Winter Gift",
+        "Level 10": "+20% Chance to gain an extra Winter Gift"
+    },
+    {
+        "Name": "Undead Resistance",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Tank Zombie",
+        "Level 1": "+4 Defense against Undead mobs",
+        "Level 10": "+40 Defense against Undead mobs"
+    },
+    {
+        "Name": "Unity is Strength",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Tadgang",
+        "Level 1": "+0.02 Sweep for each unique Common Attribute",
+        "Level 10": "+0.2 Sweep for each unique Common Attribute"
+    },
+    {
+        "Name": "Tree Lurker",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Harpy",
+        "Level 1": "+5% Chance to find monsters from Tree Gift",
+        "Level 10": "+50% Chance to find monsters from Tree Gift"
+    },
+    {
+        "Name": "Forest Strength",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Azure",
+        "Level 1": "+5 Strength on Foraging Islands",
+        "Level 10": "+50 Strength on Foraging Islands"
+    },
+    {
+        "Name": "Yog Membrane",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Yog",
+        "Level 1": "+1 Heat Resistance",
+        "Level 10": "+10 Heat Resistance"
+    },
+    {
+        "Name": "Owl Friend",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Boreal Owl",
+        "Level 1": "+2% More Pet EXP from Fann",
+        "Level 10": "+20% More Pet EXP from Fann"
+    },
+    {
+        "Name": "Hunter's Fang",
+        "Rarity": "Uncommon",
+        "Usefulness": "1/5",
+        "Shard": "Viper",
+        "Level 1": "Hunting Axes gain +1% more damage from the weapon they hold",
+        "Level 10": "Hunting Axes gain +10% more damage from the weapon they hold"
+    },
+    {
+        "Name": "Strong Arms",
+        "Rarity": "Uncommon",
+        "Usefulness": "1/5",
+        "Shard": "Bambuleaf",
+        "Level 1": "+3 Sweep on throws",
+        "Level 10": "+30 Sweep on throws"
+    },
+    {
+        "Name": "Spirit Axe",
+        "Rarity": "Uncommon",
+        "Usefulness": "1/5",
+        "Shard": "Ent",
+        "Level 1": "+3% Damage to Woodland mobs",
+        "Level 10": "+30% Damage to Woodland mobs"
+    },
+    {
+        "Name": "Kat's Favorite",
+        "Rarity": "Uncommon",
+        "Usefulness": "1/5",
+        "Shard": "Kiwi",
+        "Level 1": "Kat takes 1% less time to upgrade a Pet",
+        "Level 10": "Kat takes 10% less time to upgrade a Pet"
+    },
+    {
+        "Name": "Essence of Ice",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Glacite Walker",
+        "Level 1": "+1% Ice Essence",
+        "Level 10": "+10% Ice Essence"
+    },
+    {
+        "Name": "Kuudra's Box",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Hideondra",
+        "Level 1": "+5% Chance to have an extra Kuudra Teeth in the Paid Chest",
+        "Level 10": "+50% Chance to have an extra Kuudra Teeth in the Paid Chest"
+    },
+    {
+        "Name": "Ignition",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Matcho",
+        "Level 1": "+30% Duration of Fire Damage you inflict on enemies",
+        "Level 10": "+300% Duration of Fire Damage you inflict on enemies"
+    },
+    {
+        "Name": "Deep Diving",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Joydive",
+        "Level 1": "+5 Respiration",
+        "Level 10": "+50 Respiration"
+    },
+    {
+        "Name": "Fungy Luck",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Fungloom",
+        "Level 1": "+10% Chance to gain additional Chisel charge in the Fossil Excavator",
+        "Level 10": "+100% Chance to gain additional Chisel charge in the Fossil Excavator"
+    },
+    {
+        "Name": "Eelastic",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Eel",
+        "Level 1": "Increase Pull by +1 when using Fishing Nets",
+        "Level 10": "Increase Pull by +10 when using Fishing Nets"
+    },
+    {
+        "Name": "Echo of Atomized",
+        "Rarity": "Epic",
+        "Usefulness": "1/5",
+        "Shard": "Iguana",
+        "Level 1": "\"Atomized\" Attributes are +2% stronger",
+        "Level 10": "\"Atomized\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Sack Size",
+        "Rarity": "Epic",
+        "Usefulness": "1/5",
+        "Shard": "Hideonsack",
+        "Level 1": "Your Sacks hold 1% more items",
+        "Level 10": "Your Sacks hold 10% more items"
+    },
+    {
+        "Name": "Echo of Essence",
+        "Rarity": "Epic",
+        "Usefulness": "1/5",
+        "Shard": "Komodo Dragon",
+        "Level 1": "\"Essence\" Attributes are +2% stronger",
+        "Level 10": "\"Essence\" Attributes are +20% stronger"
+    },
+    {
+        "Name": "Solar Power",
+        "Rarity": "Epic",
+        "Usefulness": "1/5",
+        "Shard": "Firefly",
+        "Level 1": "+5 Farming Fortune during the Day",
+        "Level 10": "+50 Farming Fortune during the Day"
+    },
+    {
+        "Name": "Pet Wisdom",
+        "Rarity": "Legendary",
+        "Usefulness": "1/5",
+        "Shard": "Condor",
+        "Level 1": "+0.5 Taming Wisdom",
+        "Level 10": "+5 Taming Wisdom"
+    },
+    {
+        "Name": "Starborn",
+        "Rarity": "Legendary",
+        "Usefulness": "1/5",
+        "Shard": "Sun Fish",
+        "Level 1": "Effect of Starborn Temples is +1% stronger on you",
+        "Level 10": "Effect of Starborn Temples is +10% stronger on you"
+    },
+    {
+        "Name": "Nocturnal Animal",
+        "Rarity": "Common",
+        "Usefulness": "1/5",
+        "Shard": "Phanpyre",
+        "Level 1": "+1 Sweep at night",
+        "Level 10": "+10 Sweep at night"
+    },
+    {
+        "Name": "Berry Enjoyer",
+        "Rarity": "Rare",
+        "Usefulness": "1/5",
+        "Shard": "Bullfrog",
+        "Level 1": "Berries have a +10% chance to grant double points in Starlyn Contests",
+        "Level 10": "Berries have a +100% chance to grant double points in Starlyn Contests"
+    },
+    {
+        "Name": "Experience",
+        "Rarity": "Common",
+        "Usefulness": "0/5",
+        "Shard": "Lapis Zombie",
+        "Level 1": "+10% EXP Orbs from mobs",
+        "Level 10": "+100% EXP Orbs from mobs"
+    },
+    {
+        "Name": "Bucket Lover",
+        "Rarity": "Common",
+        "Usefulness": "0/5",
+        "Shard": "Coralot",
+        "Level 1": "+5% Chance to get extra Chum",
+        "Level 10": "+50% Chance to get extra Chum"
+    },
+    {
+        "Name": "Forest Trap",
+        "Rarity": "Uncommon",
+        "Usefulness": "0/5",
+        "Shard": "Mossybit",
+        "Level 1": "Forest Shards get caught by Traps +1% faster",
+        "Level 10": "Forest Shards get caught by Traps +10% faster"
+    },
+    {
+        "Name": "Dragon Shortbow Improvement",
+        "Rarity": "Uncommon",
+        "Usefulness": "0/5",
+        "Shard": "Seer",
+        "Level 1": "Dragon Shortbow gains +2% damage while in The End",
+        "Level 10": "Dragon Shortbow deals +20% damage while in The End"
+    },
+    {
+        "Name": "Insect Power",
+        "Rarity": "Uncommon",
+        "Usefulness": "0/5",
+        "Shard": "Praying Mantis",
+        "Level 1": "Vacuum deals +10% more damage",
+        "Level 10": "Vacuum deals +100% more damage"
+    },
+    {
+        "Name": "Battle Frog",
+        "Rarity": "Uncommon",
+        "Usefulness": "0/5",
+        "Shard": "Rana",
+        "Level 1": "+3 Strength to Frog Pet",
+        "Level 10": "+30 Strength to Frog Pet"
+    },
+    {
+        "Name": "Frog Legs",
+        "Rarity": "Rare",
+        "Usefulness": "0/5",
+        "Shard": "Toad",
+        "Level 1": "Frogs have +10% chance to jump 1 less time",
+        "Level 10": "Frogs have +100% chance to jump 1 less time"
+    },
+    {
+        "Name": "Cookie Eater",
+        "Rarity": "Rare",
+        "Usefulness": "0/5",
+        "Shard": "Bitbug",
+        "Level 1": "Gain +5% of your Booster Cookie Bits up front",
+        "Level 10": "Gain +50% of your Booster Cookie Bits up front"
+    },
+    {
+        "Name": "Rabbit Crew",
+        "Rarity": "Rare",
+        "Usefulness": "0/5",
+        "Shard": "Carrot King",
+        "Level 1": "+2 more chocolate per second from the Chocolate Factory",
+        "Level 10": "+20 more chocolate per second from the Chocolate Factory"
+    },
+    {
+        "Name": "Berry Mogul",
+        "Rarity": "Epic",
+        "Usefulness": "0/5",
+        "Shard": "Fenlord",
+        "Level 1": "Your Salts last +1% longer",
+        "Level 10": "Your Salts last +10% longer"
+    },
+    {
+        "Name": "Infection",
+        "Rarity": "Uncommon",
+        "Usefulness": "-1/5",
+        "Shard": "Magma Slug",
+        "Level 1": "+0.2% Chance to get corrupted Sea Creature",
+        "Level 10": "+2% Chance to get corrupted Sea Creature"
+    }
+]

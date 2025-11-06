@@ -1,0 +1,11 @@
+div.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+div.body Table {
+    width: 80vw;
+}
