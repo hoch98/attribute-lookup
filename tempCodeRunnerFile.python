@@ -1,0 +1,7 @@
+def count(target, n=0):
+  print(n)
+  if (n != target):
+    count(target, n+1)
+
+
+count(10)

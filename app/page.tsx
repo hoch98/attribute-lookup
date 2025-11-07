@@ -15,10 +15,20 @@ import {
 } from "@/components/ui/dialog";
 import React from "react";
 import { Select } from "@/components/retroui/Select";
+import { Slider } from "@/components/retroui/Slider";
+
+type attribute = {
+  "Name": string,
+  "Rarity": string,
+  "Usefulness": string,
+  "Shard": string,
+  "Level 1": string,
+  "Level 10": string
+}
 
 function formatNumberCompact(number:number) {
   if (typeof number !== 'number') {
-    return number; // Return as is if not a number
+    return number;
   }
 
   const formatter = new Intl.NumberFormat('en-US', {
@@ -37,11 +47,6 @@ const shardRequired:{[key:string]: number} = {
   "Legendary": 24
 }
 
-const sortFuncs:{[key:string]: Function} = {
-  "usefulness": (a:any, b:any) => parseInt(b.Usefulness[0])-parseInt(a.Usefulness[0]),
-  "rarity": (a:any, b:any) => shardRequired[a.Rarity]-shardRequired[b.Rarity]
-}
-
 export default function Home() {
 
   const [selected, setSelected] = React.useState<{
@@ -53,10 +58,24 @@ export default function Home() {
     "Level 10": string
   } | null>(null);
   const [open, setOpen] = React.useState(false);
-  const [data, setData] = React.useState<any[]>([]);
+  const [data, setData] = React.useState<attribute[]>([]);
   const [shardPrices, setShardPrices] = React.useState<any>({});
   const [sortType, setSortType] = React.useState("usefulness");
   const [sortAsc, setSortAsc] = React.useState(false);
+
+  const sortFuncs:{[key:string]: Function} = {
+    "usefulness": (a:any, b:any) => parseInt(b.Usefulness[0])-parseInt(a.Usefulness[0]),
+    "rarity": (a:any, b:any) => shardRequired[a.Rarity]-shardRequired[b.Rarity],
+    "ptm": (a:any, b:any) => getShardPrice(b.Shard) * shardRequired[b.Rarity] - getShardPrice(a.Shard) * shardRequired[a.Rarity]
+  }
+
+  function getShardPrice(shard_name:string) {
+    var pricePerShard = shardPrices[shard_name.toUpperCase().replaceAll(" ", "")]
+    if (pricePerShard == undefined) {
+      pricePerShard = Infinity
+    }
+    return pricePerShard
+  }
 
   React.useEffect(() => {
     const xhr = new XMLHttpRequest();
@@ -69,7 +88,7 @@ export default function Home() {
         var shard_data:{[key:string]:number} = {};
         Object.keys(shards).forEach((itemName) => {
           if (shards[itemName]["buy_summary"][0] == undefined) {
-            shard_data[itemName.replaceAll("SHARD_", "").replaceAll("_", "")] = 9999999999
+            shard_data[itemName.replaceAll("SHARD_", "").replaceAll("_", "")] = Infinity
           } else {
             shard_data[itemName.replaceAll("SHARD_", "").replaceAll("_", "")] = parseInt(shards[itemName]["buy_summary"][0]["pricePerUnit"])
           }
@@ -89,8 +108,8 @@ export default function Home() {
   }
 
   React.useEffect(() => {
-    sortData()
-  }, [sortType, sortAsc]);
+    sortData();
+  }, [sortType, sortAsc, shardPrices]);
 
   function handleOpen(attribute: any) {
     setSelected(attribute);
@@ -102,39 +121,61 @@ export default function Home() {
       <Text as={"h2"} className="mb-6">
         Attribute Lookup
       </Text>
-      <Text className="mb-1">
-        Sort By
-      </Text>
-      <Select onValueChange={(value) => {
-        setSortType(value);
-      }}>
-        <Select.Trigger className="w-60">
-          <Select.Value placeholder="Usefulness" />
-        </Select.Trigger>
-        <Select.Content>
-          <Select.Group>
-            <Select.Item value="usefulness">Usefulness</Select.Item>
-            <Select.Item value="rarity">Rarity</Select.Item>
-          </Select.Group>
-        </Select.Content>
-      </Select>
+      <div style={{display: "flex", columnGap: "100px"}}>
+        <div className="sortOption">
+          <Text className="mb-1">
+            Sort By
+          </Text>
+          <Select onValueChange={(value) => {
+            setSortType(value);
+          }}>
+            <Select.Trigger className="w-60">
+              <Select.Value placeholder="Usefulness" />
+            </Select.Trigger>
+            <Select.Content>
+              <Select.Group>
+                <Select.Item value="usefulness">Usefulness</Select.Item>
+                <Select.Item value="rarity">Rarity</Select.Item>
+                <Select.Item value="ptm">Price To Max</Select.Item>
+              </Select.Group>
+            </Select.Content>
+          </Select>
+        </div>
+        <div className="sortOption">
+          <Text className="mb-1">
+            Sort Order
+          </Text>
+          <Select onValueChange={(value) => {
+            setSortAsc(value == "true" ? true : false);
+          }}>
+            <Select.Trigger className="w-60">
+              <Select.Value placeholder="Descending" />
+            </Select.Trigger>
+            <Select.Content>
+              <Select.Group>
+                <Select.Item value="false">Descending</Select.Item>
+                <Select.Item value="true">Ascending</Select.Item>
+              </Select.Group>
+            </Select.Content>
+          </Select>
+        </div>
+      </div>
+      
 
-      <Text className="mb-1 mt-6">
-        Sort Order
-      </Text>
-      <Select onValueChange={(value) => {
-        setSortAsc(value == "true" ? true : false);
-      }}>
-        <Select.Trigger className="w-60">
-          <Select.Value placeholder="Descending" />
-        </Select.Trigger>
-        <Select.Content>
-          <Select.Group>
-            <Select.Item value="true">Ascending</Select.Item>
-            <Select.Item value="false">Descending</Select.Item>
-          </Select.Group>
-        </Select.Content>
-      </Select>
+      {/* <div className="sortOption mt-6">
+          <Text className="mb-1">
+            Minimum Usefulness
+          </Text>
+          <Slider
+            defaultValue={[50]}
+            min={0}
+            max={5}
+            step={1}
+            aria-label="Slider Control"
+            style={{width: "200px"}}
+          />
+      </div> */}
+
       <Table className="mb-6 mt-12 mx-auto">
         <Table.Header>
             <Table.Row>
@@ -147,14 +188,14 @@ export default function Home() {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {data.map((attribute:any) => (
+            {data.map((attribute:attribute) => (
               <Table.Row style={{fontSize: "125%"}} key={attribute.Name} onClick={() => handleOpen(attribute)}>
                 <Table.Cell className="font-medium">{attribute.Name}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Rarity}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Usefulness}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Shard}</Table.Cell>
                 <Table.Cell className="text-center">{attribute["Level 10"]}</Table.Cell>
-                <Table.Cell className="text-center">{formatNumberCompact(((shardPrices[attribute.Shard.toUpperCase().replaceAll(" ", "")]) as number) * shardRequired[attribute.Rarity])}</Table.Cell>
+                <Table.Cell className="text-center">{formatNumberCompact(getShardPrice(attribute.Shard) * shardRequired[attribute.Rarity])}</Table.Cell>
               </Table.Row>
             ))}
           </Table.Body>
@@ -173,8 +214,8 @@ export default function Home() {
                       <p><strong>Level 1:</strong> {selected["Level 1"]}</p>
                       <p><strong>Level 10:</strong> {selected["Level 10"]}</p>
                       <p><strong>Shards Required:</strong> {shardRequired[selected.Rarity]}</p>
-                      <p><strong>Price Per Shard (Insta-Buy):</strong> {formatNumberCompact(shardPrices[selected.Shard.toUpperCase().replaceAll(" ", "")])}</p>
-                      <p><strong>Price To Max:</strong> {formatNumberCompact(((shardPrices[selected.Shard.toUpperCase().replaceAll(" ", "")]) as number) * shardRequired[selected.Rarity])}</p>
+                      <p><strong>Price Per Shard (Insta-Buy):</strong> {formatNumberCompact(getShardPrice(selected.Shard))}</p>
+                      <p><strong>Price To Max:</strong> {formatNumberCompact(getShardPrice(selected.Shard) * shardRequired[selected.Rarity])}</p>
                     </div>
                   </DialogDescription>
                 </DialogHeader>

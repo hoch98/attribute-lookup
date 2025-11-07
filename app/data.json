@@ -947,7 +947,7 @@
         "Name": "Dwarven Serendipity",
         "Rarity": "Rare",
         "Usefulness": "2/5",
-        "Shard": "Abyssal Lanternfish",
+        "Shard": "Abyssal Lantern",
         "Level 1": "+10% Chance to find Golden and Diamond Goblins",
         "Level 10": "+100% Chance to find Golden and Diamond Goblins"
     },
@@ -1051,7 +1051,7 @@
         "Name": "Sea Wisdom",
         "Rarity": "Epic",
         "Usefulness": "2/5",
-        "Shard": "Loch Emperor",
+        "Shard": "Sea Emperor",
         "Level 1": "+0.5 Fishing Wisdom",
         "Level 10": "+5 Fishing Wisdom"
     },
