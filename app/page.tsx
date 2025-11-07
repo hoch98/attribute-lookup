@@ -62,6 +62,7 @@ export default function Home() {
   const [shardPrices, setShardPrices] = React.useState<any>({});
   const [sortType, setSortType] = React.useState("usefulness");
   const [sortAsc, setSortAsc] = React.useState(false);
+  const [useFilterLevel, setUseFilterLevel] = React.useState(0);
 
   const sortFuncs:{[key:string]: Function} = {
     "usefulness": (a:any, b:any) => parseInt(b.Usefulness[0])-parseInt(a.Usefulness[0]),
@@ -162,19 +163,23 @@ export default function Home() {
       </div>
       
 
-      {/* <div className="sortOption mt-6">
+      <div className="sortOption mt-6">
           <Text className="mb-1">
             Minimum Usefulness
           </Text>
           <Slider
-            defaultValue={[50]}
+            onValueChange={(value) => {
+              console.log(value)
+              setUseFilterLevel(value[0]);
+            }}
+            defaultValue={[0]}
             min={0}
             max={5}
             step={1}
             aria-label="Slider Control"
             style={{width: "200px"}}
           />
-      </div> */}
+      </div>
 
       <Table className="mb-6 mt-12 mx-auto">
         <Table.Header>
@@ -188,7 +193,7 @@ export default function Home() {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {data.map((attribute:attribute) => (
+            {[...data].filter((attribute) => parseInt(attribute.Usefulness[0]) >= useFilterLevel).map((attribute:attribute) => (
               <Table.Row style={{fontSize: "125%"}} key={attribute.Name} onClick={() => handleOpen(attribute)}>
                 <Table.Cell className="font-medium">{attribute.Name}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Rarity}</Table.Cell>
