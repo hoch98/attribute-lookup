@@ -32,6 +32,8 @@ export default function RootLayout({
         {children}
         <footer>
           UI Components from <a style={{textDecoration:"underline"}} href="https://www.retroui.dev/">RetroUI</a>
+          <br />
+          Attribute info adapted from <a style={{textDecoration:"underline"}} href="https://docs.google.com/spreadsheets/d/1ZY-nG60U7amPfqEcKnP5qkcK2JKrzpTyX8NkpPlYwZU/edit?gid=412886485#gid=412886485">Skyblock Things by Georik</a>
         </footer>
       </body>
     </html>
