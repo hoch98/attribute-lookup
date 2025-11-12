@@ -184,7 +184,7 @@ export default function Home() {
       </div>
 
       <div className="sortOption mt-10 searchParam">
-          <Input type="text" placeholder="Search for ability..." onChange={(e) => {
+          <Input type="text" placeholder="Search for attribute..." onChange={(e) => {
             console.log(e.currentTarget.value)
             setSearchParam(e.currentTarget.value.toLowerCase());
           }} />;
@@ -202,7 +202,7 @@ export default function Home() {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {[...data].filter((attribute) => (parseInt(attribute.Usefulness[0]) >= useFilterLevel && attribute["Level 1"].toLowerCase().includes(searchParam))).map((attribute:attribute) => (
+            {[...data].filter((attribute) => (parseInt(attribute.Usefulness[0]) >= useFilterLevel && (attribute.Shard+attribute["Level 1"]+attribute.Name).toLowerCase().includes(searchParam))).map((attribute:attribute) => (
               <Table.Row style={{fontSize: "125%"}} key={attribute.Name} onClick={() => handleOpen(attribute)}>
                 <Table.Cell className="font-medium">{attribute.Name}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Rarity}</Table.Cell>
