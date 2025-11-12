@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
 
 @theme {
   --font-head: var(--font-head);
@@ -52,26 +51,6 @@
   --destructive: #e63946;
   --destructive-foreground: #fff;
   --border: #000;
-}
- 
-.dark {
-  --radius: 0;
-  --background: #1a1a1a;
-  --foreground: #f5f5f5;
-  --card: #242424;
-  --card-foreground: #f5f5f5;
-  --primary: #ffdb33;
-  --primary-hover: #ffcc00;
-  --primary-foreground: #000;
-  --secondary: #3a3a3a;
-  --secondary-foreground: #f5f5f5;
-  --muted: #3f3f46;
-  --muted-foreground: #a0a0a0;
-  --accent: #fae583;
-  --accent-foreground: #000;
-  --destructive: #e63946;
-  --destructive-foreground: #fff;
-  --border: #3a3a3a;
 }
 
 footer {

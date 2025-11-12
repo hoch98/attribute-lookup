@@ -16,6 +16,7 @@ import {
 import React from "react";
 import { Select } from "@/components/retroui/Select";
 import { Slider } from "@/components/retroui/Slider";
+import { Input } from "@/components/retroui/Input";
 
 type attribute = {
   "Name": string,
@@ -63,6 +64,7 @@ export default function Home() {
   const [sortType, setSortType] = React.useState("usefulness");
   const [sortAsc, setSortAsc] = React.useState(false);
   const [useFilterLevel, setUseFilterLevel] = React.useState(0);
+  const [searchParam, setSearchParam] = React.useState("");
 
   const sortFuncs:{[key:string]: Function} = {
     "usefulness": (a:any, b:any) => parseInt(b.Usefulness[0])-parseInt(a.Usefulness[0]),
@@ -181,7 +183,14 @@ export default function Home() {
           />
       </div>
 
-      <Table className="mb-6 mt-12 mx-auto">
+      <div className="sortOption mt-10 searchParam">
+          <Input type="text" placeholder="Search for ability..." onChange={(e) => {
+            console.log(e.currentTarget.value)
+            setSearchParam(e.currentTarget.value.toLowerCase());
+          }} />;
+      </div>
+
+      <Table className="mb-6 mt-6 mx-auto">
         <Table.Header>
             <Table.Row>
               <Table.Head className="w-[200px]">Name</Table.Head>
@@ -193,7 +202,7 @@ export default function Home() {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {[...data].filter((attribute) => parseInt(attribute.Usefulness[0]) >= useFilterLevel).map((attribute:attribute) => (
+            {[...data].filter((attribute) => (parseInt(attribute.Usefulness[0]) >= useFilterLevel && attribute["Level 1"].toLowerCase().includes(searchParam))).map((attribute:attribute) => (
               <Table.Row style={{fontSize: "125%"}} key={attribute.Name} onClick={() => handleOpen(attribute)}>
                 <Table.Cell className="font-medium">{attribute.Name}</Table.Cell>
                 <Table.Cell className="text-center">{attribute.Rarity}</Table.Cell>
